@@ -1,0 +1,78 @@
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-wrapper {
+  width: 87%;
+  margin: auto;
+}
+
+.icon {
+  font-size: 35px;
+  color: #3570bc;
+}
+
+.testi-text {
+  color: #7b838b;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.fasilitas-wrapper {
+  width: 100%;
+  height: 50vh;
+}
+
+.fasilitas-title {
+  color: #4ad575;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+.fasilitas-text {
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join-us-wrapper {
+  width: 100%;
+  height: 1000px;
+  background: url("../../img/CTA.webp") no-repeat;
+  background-size: cover;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 49vw solid transparent;
+  border-right: 49vw solid transparent;
+  border-top: 20vh solid white;
+  margin-bottom: 7%;
+}
+
+.join-us-tangkas {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.join-us-text {
+  text-align: center;
+  font-size: 7em;
+  line-height: 130px;
+  margin: 10px 0px 30px;
+  color: rgb(255, 255, 255);
+}

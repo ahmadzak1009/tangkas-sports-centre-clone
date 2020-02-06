@@ -1,0 +1,23 @@
+.bg-about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../../img/bg-about.jpg") no-repeat;
+  background-size: cover;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 7em;
+  line-height: 110px;
+  margin-top: 0.24em;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 34px;
+}
