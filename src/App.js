@@ -7,7 +7,9 @@ import Fasilitas from "./components/Fasilitas.js/Fasilitas";
 import ComingSoon from "./components/ComingSoon";
 
 function App() {
-  AOS.init();
+  AOS.init({
+    once: true
+  });
   return (
     <>
       <Router>

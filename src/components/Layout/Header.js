@@ -7,9 +7,16 @@ const Header = props => {
   return (
     <>
       <header id="header" className="shadow-sm fixed-top">
-        <Link to="/" className="nav-link">
-          <img src={logo} width="75" height="75" alt="logo" />
+        <Link to="/">
+          <img src={logo} width="75" height="75" alt="logo" className="logo" />
         </Link>
+
+        {/* BURGER BUTTON */}
+        <input type="checkbox" id="burger" />
+        <label htmlFor="burger" className="burger-btn">
+          <i className="fa fa-bars"></i>
+        </label>
+
         <ul className="nav-links">
           <li>
             <Link to="/" className="nav-link">

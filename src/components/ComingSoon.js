@@ -8,7 +8,7 @@ const ComingSoon = props => {
     <>
       <Header />
       <h1 className="fasilitas-title text-capitalize">{window.location.pathname.slice(1)}</h1>
-      <h1 class="text-center mb-5">Coming Soon</h1>
+      <h1 className="text-center mb-5">Coming Soon</h1>
       <Footer />
     </>
   );
