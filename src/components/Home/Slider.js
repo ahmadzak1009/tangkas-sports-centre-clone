@@ -7,7 +7,7 @@ const Slider = props => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 slides"
             src={require("../../img/slide1.jpeg")}
             alt="First slide"
             height="700"
@@ -15,15 +15,15 @@ const Slider = props => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 slides"
             src={require("../../img/slide2.jpeg")}
-            alt="Third slide"
+            alt="Second slide"
             height="700"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 slides"
             src={require("../../img/slide3.jpg")}
             alt="Third slide"
             height="700"
@@ -31,7 +31,7 @@ const Slider = props => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 slides"
             src={require("../../img/slide4.jpeg")}
             alt="Fourth slide"
             height="700"
@@ -39,7 +39,7 @@ const Slider = props => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 slides"
             src={require("../../img/slide5.jpeg")}
             alt="Fifth slide"
             height="700"

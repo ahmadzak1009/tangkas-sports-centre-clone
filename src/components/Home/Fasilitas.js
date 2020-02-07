@@ -8,8 +8,8 @@ const Fasilitas = props => {
           className="d-flex flex-column justify-content-center align-items-center text-center fasilitas-wrapper mt-5"
           data-aos="zoom-in-down"
         >
-          <h5 className="fasilitas-title">FASILITAS & AKTIVITAS</h5>
-          <p className="col-md-8 fasilitas-text text-muted">
+          <h5 className="fasilitas-home-title">FASILITAS & AKTIVITAS</h5>
+          <p className="col-md-8 fasilitas-home-text text-muted">
             Di Tangkas Sports Centre, kita akan selalu memberikan pelayanan dan fasilitas terbaik
             untuk anda.
           </p>

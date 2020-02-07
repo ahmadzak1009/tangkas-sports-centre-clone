@@ -80,12 +80,8 @@ const Content = props => {
               </div>
             </div>
           </div>
-          <div
-            className="col-md-3 position-relative"
-            style={{ height: "1000px", overflow: "hidden", backgroundColor: "#f7f7f7" }}
-            data-aos="fade-left"
-          >
-            <img src={img} alt="content" style={{ height: "1000px", marginLeft: "-330px" }} />
+          <div className="col-md-3 position-relative content-right" data-aos="fade-left">
+            <img src={img} alt="content" className="img-yt" />
             <a
               href="https://www.youtube.com/watch?v=UpXc_9NUsM8"
               target="_blank"
